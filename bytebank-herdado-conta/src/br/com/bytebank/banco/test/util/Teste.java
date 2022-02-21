@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
+import br.com.bytebank.banco.modelo.Cliente;
 
 public class Teste {
 	public static void main(String[] args) {
@@ -16,6 +17,8 @@ public class Teste {
 		Conta cc2 = new ContaCorrente(123, 22);
 		Conta cp1 = new ContaPoupanca(123, 55);
 		Conta cp2 = new ContaPoupanca(123, 66);
+		
+
 		
 		// ADD instances to list 'lista'
 		lista.add(cc1);
