@@ -6,7 +6,7 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import br.com.bytebank.banco.modelo.Cliente;
 
-public class Teste {
+public class TesteArrayList {
 	public static void main(String[] args) {
 		
 		// instancia nova ArrayList();
