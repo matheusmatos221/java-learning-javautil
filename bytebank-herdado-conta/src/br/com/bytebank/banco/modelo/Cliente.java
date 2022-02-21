@@ -10,6 +10,13 @@ public class Cliente {
     private String nome;
     private String cpf;
     private String profissao;
+    
+    public Cliente() {
+    }
+    
+    public Cliente(String nome) {
+    	this.setNome(nome);
+    }
 
     public String getNome() {
         return nome;
