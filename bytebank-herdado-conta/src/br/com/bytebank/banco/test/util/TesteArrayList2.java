@@ -6,6 +6,7 @@ import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
@@ -17,6 +18,7 @@ public class TesteArrayList2 {
         //List<Conta> contas = new ArrayList<Conta>(); //usa array por baixo
         //List<Conta> contas = new LinkedList<Conta>(); //lista linkada
         List<Conta> contas = new Vector<Conta>(); //usa array por baixo, mas tbm é threadsafe
+		//Collection<Conta> contas = new Vector<Conta>(); //funciona mas os metodos abaixo param de funcionar
         
 		
 		// instancia nova ArrayList();
