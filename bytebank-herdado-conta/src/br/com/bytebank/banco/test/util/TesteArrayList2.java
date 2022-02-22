@@ -1,16 +1,28 @@
 package br.com.bytebank.banco.test.util;
 
 import br.com.bytebank.banco.modelo.Cliente;
+
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 public class TesteArrayList2 {
 	public static void main(String[] args) {
 		
+		// Instancia novas listas para testes
+        //List<Conta> contas = new ArrayList<Conta>(); //usa array por baixo
+        //List<Conta> contas = new LinkedList<Conta>(); //lista linkada
+        List<Conta> contas = new Vector<Conta>(); //usa array por baixo, mas tbm é threadsafe
+        
+		
 		// instancia nova ArrayList();
-		ArrayList<Conta> contas = new ArrayList<Conta>();
+		//ArrayList<Conta> contas = new ArrayList<Conta>();
+		
+		// instancia nova ArrayList() para clientes;
 		ArrayList<Cliente> clientes = new ArrayList<Cliente>();
 		
 		// instance new objects 'Cliente'
